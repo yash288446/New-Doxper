@@ -61,6 +61,14 @@ h1, h2, h3, h4, h5, h6 {
   
   /* Our Code*/
   
+   .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin:1.8rem;
+    }
+
     .hamburger {
         margin-top: 1.8rem;
         display: block;
@@ -80,7 +88,6 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-transform: translateY(-9.5px) rotate(-45deg);
         transform: translateY(-9.5px) rotate(-45deg);
     }
-  
   
   
   
