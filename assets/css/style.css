@@ -59,35 +59,6 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   
-  /* Our Code*/
-  
-   .nav-menu.active {
-        left: 0;
-    }
-
-    .nav-item {
-        margin:1.8rem;
-    }
-
-    .hamburger {
-        margin-top: 1.8rem;
-        display: block;
-        cursor: pointer;
-    }
-
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        -webkit-transform: translateY(9.5px) rotate(45deg);
-        transform: translateY(9.5px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        -webkit-transform: translateY(-9.5px) rotate(-45deg);
-        transform: translateY(-9.5px) rotate(-45deg);
-    }
   
   
   
@@ -257,6 +228,37 @@ h1, h2, h3, h4, h5, h6 {
   .navbar ul {
     display: none;
   }
+  
+  
+  /* Our Code*/
+  
+   .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin:1.8rem;
+    }
+
+    .hamburger {
+        margin-top: 1.8rem;
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(9.5px) rotate(45deg);
+        transform: translateY(9.5px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-9.5px) rotate(-45deg);
+        transform: translateY(-9.5px) rotate(-45deg);
+    }
 }
 .navbar-mobile {
   position: fixed;
