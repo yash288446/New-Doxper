@@ -40,13 +40,13 @@
       <nav id="navbar" class="navbar">
         <ul>
 
-          <li><a class="nav-link " href="#nav">Home</a></li>
-          <li><a class="nav-link " href="#about">About</a></li>
-          <li><a class="nav-link " href="#clients">Clients</a></li>
-          <li><a class="nav-link  " href="#testimonials">Testimonials</a></li>
-          <li><a class="nav-link " href="#team">Team</a></li>
-          <li><a class="nav-link " href="#contact">Contact</a></li>
-          <li><a class="nav-link " href="#contact">Login</a></li>
+          <li><a class="nav-link  navbar-collapse " href="#nav">Home</a></li>
+          <li><a class="nav-link navbar-collapse " href="#about">About</a></li>
+          <li><a class="nav-link navbar-collapse " href="#clients">Clients</a></li>
+          <li><a class="nav-link navbar-collapse  " href="#testimonials">Testimonials</a></li>
+          <li><a class="nav-link navbar-collapse " href="#team">Team</a></li>
+          <li><a class="nav-link navbar-collapse " href="#contact">Contact</a></li>
+          <li><a class="nav-link navbar-collapse " href="#contact">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
         
@@ -558,6 +558,18 @@ touches paper in healthcare</span></h3>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
   <!-- Template Main JS File -->
+<script type="text/javascript">
+$('.js-scroll-trigger').click(function() {
+$('.navbar-collapse').collapse('hide');
+
+  });
+
+      </script>
+
+
+<!---- Copy and paste it on anchor tag class=”js-scroll-trigger” as show in video ---->
+
+
   <script src="assets/js/main.js"></script>
 
 </body>
