@@ -170,21 +170,19 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 3px;
   font-size: 15px;
   font-weight: 600;
-  color: #222222;
+  /*color: #222222;*/
+  color: #00FFFF;
+   border-color:#00FFFF ;
   white-space: nowrap;
-  transition: 0.3s;
+ transition: all .8s ease-out;
   position: relative;
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
-  border-color:#00FFFF ;
-    color: #00FFFF;
-    background-color: black;
-    transition: all .8s ease-out;
 }
-}
+
 .navbar > ul > li > a:before {
   content: "";
   position: absolute;
