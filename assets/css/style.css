@@ -170,9 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 3px;
   font-size: 15px;
   font-weight: 600;
-  /*color: #222222;*/
-  color: #00FFFF;
-   border-color:#00FFFF ;
+  color: #222222;
   white-space: nowrap;
  transition: all .8s ease-out;
   position: relative;
