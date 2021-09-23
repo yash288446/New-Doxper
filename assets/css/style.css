@@ -179,6 +179,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
+  border-color:#00FFFF ;
+    color: #00FFFF;
+    background-color: black;
+    transition: all .8s ease-out;
+}
 }
 .navbar > ul > li > a:before {
   content: "";
@@ -199,13 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #106eea;
 }
-.navbar li .nav-link:hover
-{
-  border-color:#00FFFF ;
-    color: #00FFFF;
-    background-color: black;
-    transition: all .8s ease-out;
-}
+
 
 /**
 * Mobile Navigation 
