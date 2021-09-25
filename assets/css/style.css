@@ -408,13 +408,15 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
-  width:100px;
   overflow: hidden;
 }
 
 .section-bg {
   background-color: #f6f9fe;
 }
+.img-fluid{
+width:100px;
+height:150px;}
 
 .section-title {
   text-align: center;
