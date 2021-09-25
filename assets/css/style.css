@@ -414,9 +414,9 @@ section {
 .section-bg {
   background-color: #f6f9fe;
 }
-.img-fluid{
-width:100px;
-height:150px;}
+#client_images{
+width:150px;
+height:200px;}
 
 .section-title {
   text-align: center;
