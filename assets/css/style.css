@@ -180,7 +180,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
   margin-left: 5px;
 }
-
 .navbar > ul > li > a:before {
   content: "";
   position: absolute;
@@ -200,7 +199,6 @@ h1, h2, h3, h4, h5, h6 {
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #106eea;
 }
-
 
 /**
 * Mobile Navigation 
@@ -414,9 +412,6 @@ section {
 .section-bg {
   background-color: #f6f9fe;
 }
-#client_images{
-width:150px;
-height:200px;}
 
 .section-title {
   text-align: center;
@@ -614,7 +609,7 @@ height:200px;}
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  /*background: url("images/testimonials-back.jfif") no-repeat;*/
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -692,6 +687,7 @@ height:200px;}
   .testimonials .testimonial-item p {
     width: 80%;
   }
+
 }
 
 
@@ -700,13 +696,19 @@ height:200px;}
 --------------------------------------------------------------*/
 .team {
   padding: 60px 0;
+  background-color: rgba(24, 245, 94, 0.10);
+
 }
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 4px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
+  /*background: #fff;
+  box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);*/
+box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+
 }
 .team .member .member-img {
   position: relative;
@@ -742,6 +744,7 @@ height:200px;}
 }
 .team .member .member-info {
   padding: 25px 15px;
+ 
 }
 .team .member .member-info h4 {
   font-weight: 700;
